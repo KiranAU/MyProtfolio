@@ -12,7 +12,11 @@
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
+        <!-- carousel scripts -->
+        <script src="js/components/jssor.slider-27.2.0.min.js" type="text/javascript"></script>
+        <script src="js/components/car.js" type="text/javascript"></script>
+		<!-- carousel styles -->
+        <link href="css/car.css" rel="stylesheet" type="text/css"/>
         <!-- PAGE LEVEL PLUGIN STYLES -->
         <link href="css/animate.css" rel="stylesheet">
 
@@ -63,10 +67,10 @@
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About Me</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">My Projects</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Portfolio</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Download CV</a></li>
                             </ul>
                         </div>
                     </div>
@@ -99,6 +103,102 @@
         <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
+        
+        <!-- ///////////////////////Carousel Start /////////////////////////-->
+        <div id="work" class="bg-color-sky-light">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="text-center">
+                    <h1>My Projects</h1>
+                </div>
+                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+    
+                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+    
+                        <div data-p="225">
+                            <img data-u="image" src="img/Bamazon.PNG" />
+                            <div class="carousel-caption">
+                                <h2 class="ptitle">Bamazon</h2>
+                                <p>
+                                    <a class="pdesc" href="https://github.com/KiranAU/Bamazon" target="_blank">View on GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div data-p="225">
+                            <img data-u="image" src="img/Trivia.PNG" />
+                            <div class="carousel-caption">
+                                <h2 class="ptitle">Trivia Game</h2>
+                                <p>
+                                    <a class="pdesc" href="https://github.com/KiranAU/TriviaGame" target="_blank">View on GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div data-p="225">
+                            <img data-u="image" src="img/Giphy.PNG" />
+                            <div class="carousel-caption">
+                                <h2 class="ptitle">Giphy Search</h2>
+                                <p>
+                                    <a class="pdesc" href="https://github.com/KiranAU/Gif-Search" target="_blank">View on GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div data-p="225">
+                            <img data-u="image" src="img/Multi.PNG" />
+                            <div class="carousel-caption">
+                                <h2 class="ptitle">Train Scheduler</h2>
+                                <p>
+                                    <a class="pdesc" href="https://github.com/KiranAU/TrainScheduler" target="_blank">View on GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div data-p="225">
+                            <img data-u="image" src="img/Crystal.PNG" />
+                            <div class="carousel-caption">
+                                <h2 class="ptitle">Crystal Collector</h2>
+                                <p>
+                                    <a class="pdesc" href="https://github.com/KiranAU/CrystalCollector" target="_blank">View on GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div data-p="225">
+                            <img data-u="image" src="img/friend.jpg" />
+                            <div class="carousel-caption">
+                                <h2 class="ptitle">Friend Finder</h2>
+                                <p>
+                                    <a class="pdesc" href="https://github.com/KiranAU/friendFinder" target="_blank">View on GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bullet Navigator -->
+                    <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5"
+                        data-scale-bottom="0.75">
+                        <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Arrow Navigator -->
+                    <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75"
+                        data-scale-left="0.75">
+                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                        </svg>
+                    </div>
+                    <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75"
+                        data-scale-right="0.75">
+                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+		<!-- ///////////////////////Carousel End /////////////////////////-->
+        
         <!-- About -->
         <div id="about">
             <div class="container content-lg">
@@ -113,33 +213,6 @@
                             <p>My name is Kiran Uttarkar. I am based in Orlando, Florida. I am a full stack web developer with focus on React and Angular on the Front-end and Node on the Back-end.</p>
                             <p>Please <a href="#work">click here </a>to have a look at my projects. If you would like to build something together, <a href="#contact">please contact me</a>.</p>
                         </div>
-
-                        <!-- Progress Box -->
-                        <div class="progress-box">
-                            <h5>JavaScript <span class="color-heading pull-right">87%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>Node <span class="color-heading pull-right">80%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>React <span class="color-heading pull-right">70%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="65"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>Angular <span class="color-heading pull-right">52%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="52"></div>
-                            </div>
-                        </div>
-                        <!-- End Progress Box -->
                     </div>
                 </div>
                 <!--// end row -->
@@ -205,177 +278,6 @@
         </div>
         <!-- End Experience -->
 
-        <!-- Work -->
-        <div id="work">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Portfolio</h2>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <!-- Masonry Grid -->
-                        <div class="masonry-grid row row-space-2">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="HTML, CSS, Node, Express, JSON">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Friend Finder</h3>
-                                                <span>HTML, CSS, Node, Express, JSON</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>A compatibility-based "FriendFinder" application -- basically a dating app. Used Express.js to handle routing. Deployed the app to Heroku.</p>
-                                                        <p>This full-stack site takes in results of visitors' surveys, then compares their answers with those from other visitors. The app will then display the name and picture of the user with the best overall match.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://secret-waters-42797.herokuapp.com/" target="_blank">View on Heroku</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://github.com/KiranAU/friendFinder" target="_blank">View on Github</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="HTML, CSS, JavaSript, jQuery">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Crystal Collector</h3>
-                                                <span>HTML, CSS, JavaSript, jQuery</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>A fun and interactive game for web browsers.</p>
-                                                        <p>Created using HTML5, CSS, JavaSript and jQuery.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://kiranau.github.io/CrystalCollector/" target="_blank">Visit the site on Github Pages</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://github.com/KiranAU/CrystalCollector" target="_blank">View on Github</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="HTML, CSS, JavaSript, jQuery, Firebase API, Momentjs">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Train Scheduler</h3>
-                                                <span>HTML, CSS, JavaSript, jQuery, Firebase API, Momentjs</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>A train schedule application that incorporates Firebase to host arrival and departure data. Used Moment.js to retrieve and manipulate this information.</p>
-                                                        <p>This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://kiranau.github.io/TrainScheduler/" target="_blank">Visit the site on Github Pages</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://github.com/KiranAU/TrainScheduler" target="_blank">View on Github</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="HTML, CSS, JavaSript, jQuery">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Trivia Game</h3>
-                                                <span>HTML, CSS, JavaSript, jQuery</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>A Trivia game created using JavaScript for the logic and jQuery to manipulate the HTML.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://kiranau.github.io/TriviaGame/" target="_blank">Visit on Github Pages</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://github.com/KiranAU/TriviaGame" target="_blank">View on Github</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Node.js, mySQL, ORM, CLI, JavaScript">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Bamazon</h3>
-                                                <span>Node.js, mySQL, ORM, CLI, JavaScript</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>An Amazon-like storefront CLI app created with MySQL, Node, JavaSript.</p>
-                                                        <p>The app takes in orders from customers and depletes stock from the store's inventory, tracks product sales across the store's departments and then provides a summary of the highest-grossing department in the store.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://github.com/KiranAU/Bamazon" target="_blank">View on Github</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://youtu.be/R7c30MtEYqM" target="_blank">View on YouTube</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                        </div>
-                        <!-- End Masonry Grid -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Work -->
-
         <!-- Contact -->
         <div id="contact">
             <div class="bg-color-sky-light">
@@ -383,7 +285,7 @@
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Contacts</h2>
+                                <h2 class="margin-b-0">Contact Me</h2>
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
@@ -399,6 +301,9 @@
                                 <div class="col-md-3 col-xs-6">
                                     <h5>Resume</h5>
                                     <a href="Resume/Resume.pdf">Download Resume</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Thank you!</h5>
                                 </div>
                             </div>
                         </div>
@@ -439,13 +344,9 @@
         <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
         <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
         <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
         <!-- PAGE LEVEL SCRIPTS -->
         <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
         <script src="js/components/wow.min.js" type="text/javascript"></script>
 
     </body>
