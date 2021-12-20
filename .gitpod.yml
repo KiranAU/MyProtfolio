@@ -3,3 +3,11 @@ tasks:
       echo 'TODO: build project'
     command: |
       echo 'TODO: start app'
+
+ports:
+  - port: 5500
+    onOpen: open-browser
+
+vscode:
+  extensions:
+  - live-server-web-extension
